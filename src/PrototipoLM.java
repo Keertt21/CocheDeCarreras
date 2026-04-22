@@ -9,9 +9,9 @@ public class PrototipoLM extends CocheDeCarreras {
     @Override
     public void competir() {
         if (sistemaHibrido) {
-            System.out.println("- Es un coche hibidrido");
+            System.out.println("- Motor: Híbrido");
         } else {
-            System.out.println("- No es un coche hibrido");
+            System.out.println("- Motor: Combustión");
         }
     }
 }

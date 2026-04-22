@@ -36,7 +36,7 @@ public abstract class CocheDeCarreras {
     public abstract void competir();
 
     public void mostrarDatos() {
-        System.out.println("..:: Datos del coche \n" + "- Marca: " + marca +
+        System.out.println("...::: Datos del coche \n" + "- Marca: " + marca +
                 "\n- Modelo: " + modelo + "\n- Velocidad Max: " + velocidadMaxima + "Km/H");
     }
 }

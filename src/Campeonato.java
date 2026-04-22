@@ -10,14 +10,14 @@ public class Campeonato {
         coches.add(new GranTurismo("GTX", "ASD", 275, 60));
         coches.add(new GranTurismo("NISSAN", "GTR", 300, 45));
 
-
+        int i = 0;
 
         for (CocheDeCarreras c : coches) {
-            int i = 0;
-            System.out.println("...::: Coche numero " + (i+1) + " :::...");
+            i=i+1;
+            System.out.println("...:::: COCHE NÚMERO " + (i) + " ::::...");
             c.mostrarDatos();
             c.competir();
-            System.out.println("----------------------------");
+            System.out.println("------------------------------");
         }
     }
 }

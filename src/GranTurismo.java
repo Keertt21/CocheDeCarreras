@@ -9,5 +9,12 @@ public class GranTurismo extends CocheDeCarreras {
     @Override
     public void competir() {
         System.out.println("- Peso extra: " + pesoExtraLastre + "KG");
+        double asd;
+        asd = Math.random();
+        if (asd>=0.5) {
+            System.out.println("- Gestión lastre extra: Buena");
+        } else {
+            System.out.println("- Gestión lastre extra: Mala");
+        }
     }
 }
